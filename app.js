@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   let width = 10;
   let squares = [];
-  let bombAmount = 20;
+  let bombAmount = 15;
   let isGameOver = false;
   let numOfFlags = 0;
   let difficulty = "easy";
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
       grid.style.height = 400 + "px";
       boxSize = 40 + "px";
       width = 10;
-      bombAmount = 20;
+      bombAmount = 15;
     } else if (difficulty === "medium") {
       bombAmount = 40;
       width = 12;
